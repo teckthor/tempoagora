@@ -23,6 +23,7 @@ export default class Main extends Component {
         // this.setState({ temp: response.data })
         
         // console.log(response.data)
+        api()
         getLocation()
     }
 
@@ -34,7 +35,7 @@ export default class Main extends Component {
                 <p className="content" id="date">Sex, 16 de agosto 00:22</p>
                 <p className="content" id="temp">15°c</p>
                 <p className="content" id="condition">
-                    <i class="fas fa-cloud"></i> 
+                    {/* <i class="fas fa-cloud"></i>  */}
                     Nublado</p>
             </div>
         )
