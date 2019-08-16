@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi:400,500&display=swap');
+
+.main-content {
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Pridi', serif;
+    color: white;
+}
+
+.content {
+    font-size: 1.5em;
+}
+
+.content i {
+    margin-right: 10px;
+}
+
+#city {}
+#date {}
+#condition {
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+#temp {
+    font-size: 10em;
+    font-weight: 500;
+}
