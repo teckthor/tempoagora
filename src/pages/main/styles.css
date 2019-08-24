@@ -9,6 +9,10 @@
     color: white;
 }
 
+.main-content p i {
+    margin-left: 10px;
+}
+
 .content {
     font-size: 1.5em;
 }
@@ -19,12 +23,33 @@
 
 #city {}
 #date {}
-#condition {
+
+#condition p {
     font-weight: 400;
     font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 #temp {
     font-size: 10em;
+    font-weight: 500;
+}
+
+.iconH {
+    color: rgb(180, 116, 116);
+}
+
+.iconL {
+    color: rgb(57, 92, 207);
+}
+
+#condition img {
+    margin-left: 10px;
+}
+
+.tempHL {
+    font-size: 1.2em;
     font-weight: 500;
 }
