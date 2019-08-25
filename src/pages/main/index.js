@@ -87,10 +87,10 @@ export default class Main extends Component {
                 </div>
 
                 <div className="tempHL">
-                    <p>Temperatura minima: {observation.lowTemperature} °c
+                    <p>Temperatura mínima: {observation.lowTemperature} °c
                         <i className="iconH fas fa-temperature-high"></i>
                     </p>
-                    <p>Temperatura maxima: {observation.highTemperature} °c
+                    <p>Temperatura máxima: {observation.highTemperature} °c
                         <i className="iconL fas fa-temperature-high"></i>
                     </p>
                 </div>
